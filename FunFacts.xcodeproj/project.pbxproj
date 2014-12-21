@@ -36,6 +36,7 @@
 		159F2D3D1A46A03A00DBF888 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		159F2D421A46A03A00DBF888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		159F2D431A46A03A00DBF888 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		159F2D4D1A46A34C00DBF888 /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ScratchPad.playground; path = FunFacts/ScratchPad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				159F2D2A1A46A03A00DBF888 /* FunFacts */,
+				159F2D4E1A46A35E00DBF888 /* Playgrounds */,
 				159F2D401A46A03A00DBF888 /* FunFactsTests */,
 				159F2D291A46A03A00DBF888 /* Products */,
 			);
@@ -110,6 +112,14 @@
 				159F2D421A46A03A00DBF888 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		159F2D4E1A46A35E00DBF888 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				159F2D4D1A46A34C00DBF888 /* ScratchPad.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
